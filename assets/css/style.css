@@ -10,23 +10,28 @@ body {
     font-family: Playfair Display, sans-serif;
     font-weight: 500;
     color: black;
+    background: url(../images/backround-flower.jpg);
 }
 
 /* headings and logo */
 
-h1, h2 {
-    font-family: Playfair Display, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #3a3a3a;
+h2 {
+    padding-top: 4px;
+    margin-left: 18px;
+    color: white;
 }
 
 #logo {
     float: left;
     font-size: 300%;
+    font-family: Playfair Display, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    padding-left: 15px;
 }
 
-/*navigation links */
+/* navigation links */
 
 #menu {
     font-size: 120%;
@@ -55,4 +60,11 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid black;
+}
+
+#image-about {
+    background: url('../images/viki\ on\ a\ boat.jpg') no-repeat center;
+    height: 600px;
+    margin-top: 60px;
+    margin-right: 700px;
 }

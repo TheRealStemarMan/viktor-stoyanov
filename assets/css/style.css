@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
  * {
     margin: 0;
@@ -9,16 +10,20 @@
 body {
     font-family: Playfair Display, sans-serif;
     font-weight: 500;
-    color: black;
-    background: url(../images/backround-flower.jpg);
+    color: white;
+    background: url(../images/backround-flower.jpg) no-repeat;
+    background-size: cover;
 }
 
 /* headings and logo */
 
-h2 {
-    padding-top: 4px;
+#who-is-viktor {
     margin-left: 18px;
     color: white;
+    position: absolute;
+    margin-top: -145px;
+    font-size: xxx-large;
+    margin-left: 780px;
 }
 
 #logo {
@@ -62,9 +67,78 @@ h2 {
     border-bottom: 1px solid black;
 }
 
+/* main image */
+
 #image-about {
-    background: url('../images/viki\ on\ a\ boat.jpg') no-repeat center;
-    height: 600px;
-    margin-top: 60px;
-    margin-right: 700px;
+    background: url('../images/viki_main_image.png') no-repeat center;
+    height: 800px;
+}
+
+/* second image */
+
+#second-image-container {
+    border-style: solid;
+    border-color: white;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+#second-image {
+    background: url(../images/viki\ on\ a\ boat.jpg) bottom no-repeat;
+    height: 700px;
+    width: 1000px;
+
+}
+
+/* paragraphs */
+
+#introduction {
+    font-family: Playfair Display, sans-serif;
+    float: left;
+    color: rgb(202, 202, 202);
+    padding-left: 17px;
+    font-size: large;
+    margin-top: -70px;
+    font-size: 20pt;
+}
+
+#brief-history-heading {
+    color: white;
+    margin-left: 18px;
+    color: white;
+    position: absolute;
+    margin-top: -145px;
+    font-size: xxx-large;
+    margin-left: 797px;
+    margin-top: 90px;
+}
+
+#brief-history {
+    font-family: Playfair Display, sans-serif;
+    float: left;
+    color: rgb(202, 202, 202);
+    padding-left: 17px;
+    font-size: large;
+    margin-top: -70px;
+    font-size: 20pt;
+    margin-top: 200px;
+}
+
+/* site footer */
+
+
+
+.social-links {
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 160%;
+    margin: 2%;
+    color: white;
+    padding: 5%;
 }

@@ -7,12 +7,20 @@
     border: none;
  }
 
-body {
+ body {
     font-family: Playfair Display, sans-serif;
     font-weight: 500;
     color: white;
     background: url(../images/backround-flower.jpg) no-repeat;
     background-size: cover;
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+    background-color: rgb(59, 59, 59);
+}
+
+.page-wrapper {
+    flex: 1;
 }
 
 /* headings and logo */
@@ -137,8 +145,14 @@ body {
 }
 
 .social-links i {
-    font-size: 160%;
+    font-size: 400%;
     margin: 2%;
     color: white;
-    padding: 5%;
+    padding: 1%;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(59, 59, 59);
 }

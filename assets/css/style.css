@@ -156,3 +156,16 @@ footer {
     width: 100%;
     background-color: rgb(59, 59, 59);
 }
+
+/* gallery */ 
+
+#gallery-photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 2px;
+}
+
+#gallery-photos > img {
+    width: 100%;
+}

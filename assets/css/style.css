@@ -200,12 +200,101 @@ footer {
         margin-top: 20px;
     }
 
-    #image-about {}
 
 #second-image-container, #second-image, #brief-history {
     width: 100%;
     float: left;
     padding: 0;
 }
+
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #image-about {
+        width: 800px;
+        margin-left: -150px;
+    }
+
+    #brief-history-heading {
+        margin-top: 480px;
+        margin-left: -20px;
+    }
+
+    #who-is-viktor {
+        margin-left: -60px;
+    }
+
+    #gallery-photos {
+        column-count: 3;
+    }
+
+}
+
+/* For small screen sizes from 425px wide and down */
+@media screen and (max-width: 425px) {
+
+    #logo {
+        width: 500px;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        position: absolute;
+        margin: 0;
+        margin-top: 70px;
+        padding-left: 30px;
+        width: 400px;
+    }
+
+    #who-is-viktor {
+        width: 400px;
+        margin-left: -20px;
+    }
+
+    #introduction {
+        width: 600px;
+    }
+
+    #brief-history-heading {
+        width: 400px;
+        margin-top: 360px;
+    }
+
+    #second-image-container {
+        width: 600px;
+    }
+
+    #second-image {
+        width: 600px;
+    }
+
+    #brief-history {
+        width: 600px;
+    }
+
+    footer {
+        width: 724px;
+    }
+
+    #gallery-photos {
+        column-count: 2;
+        padding-top: 40px;
+        width: 100%;
+    }
+
+    body {
+        width: 724px;
+    }
 
 }
